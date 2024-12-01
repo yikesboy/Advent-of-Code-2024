@@ -1,0 +1,9 @@
+# ignore everything
+*
+*.*
+
+# accept .go and .txt
+!*.go
+!*.txt
+!*.gitignore
+!*/
