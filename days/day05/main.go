@@ -22,7 +22,7 @@ func partOne() (int, error) {
 
 	file, err := os.Open("input.txt")
 	if err != nil {
-		return 0, fmt.Errorf("error opening file: %v", err)
+		return 0, fmt.Errorf("error opening file: %v\n", err)
 	}
 	defer file.Close()
 
@@ -75,3 +75,4 @@ func checkPageOrdering(rules map[string][]string, pageOrder []string) bool {
 
 	return true
 }
+
